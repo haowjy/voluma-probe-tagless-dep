@@ -1,0 +1,8 @@
+[package]
+name = "voluma-probe-tagless"
+version = "0.1.0"
+description = "Throwaway probe package: depends on a tagless repo to exercise default-branch fallback."
+
+[dependencies.meridian-cli-kb]
+url = "https://github.com/haowjy/meridian-cli-kb"
+version = ">=0.1.0, <1.0.0"
