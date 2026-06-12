@@ -3,6 +3,10 @@ name = "voluma-probe-tagless"
 version = "0.1.0"
 description = "Throwaway probe package."
 
+[dependencies.voluma-probe-target]
+url = "https://github.com/haowjy/voluma-probe-tagless-target"
+version = ">=0.1.0, <1.0.0"
+
 [dependencies.meridian-base]
 url = "https://github.com/haowjy/meridian-base"
 version = ">=0.7.0, <0.8.0"
